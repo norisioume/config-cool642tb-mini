@@ -55,10 +55,10 @@
 
         CHAR {
             bindings = <
-&kp N1    &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6     &kp N7    &kp N8    &kp N9        &kp N0
-&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &kp UNDER      &kp HOME  &kp ENTER  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT
-&kp F1    &kp F2     &kp F3     &kp F4     &kp F5     &trans         &trans    &kp F6     &kp F7    &kp F8    &kp F9        &kp F10
-&trans    &trans     &trans     &trans     &trans     &trans         &trans    &trans                                       &kp F11
+&kp EXCLAMATION   &kp QUESTION   &kp AT         &kp AMPERSAND     &kp LS(NON_US_BACKSLASH)                      &kp EQUAL  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LEFT_BRACKET  &kp LS(MINUS)  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH                 &trans      &trans  &kp UNDER  &kp COLON     &kp MINUS             &kp DOUBLE_QUOTES  &kp SLASH
+&kp DOLLAR        &kp PERCENT    &kp CARET      &kp HASH          &kp INTERNATIONAL_3       &trans      &trans  &kp PLUS   &kp LS(F7)    &kp LS(PERIOD)        &kp RIGHT_BRACE    &kp PIPE
+&trans            &trans         &trans         &trans            &trans                    &trans      &trans  &trans                                                            &trans
             >;
         };
 
