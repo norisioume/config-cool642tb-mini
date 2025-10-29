@@ -45,7 +45,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W       &kp E         &kp R                &kp T                                             &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S       &kp D         &kp F                &kp G           &kp LC(Y)      &kp C_VOLUME_UP    &kp H            &kp J  &kp K      &lt 4 L  &kp ENTER
+&kp A      &kp S       &kp D         &kp F                &kp G           &trans         &kp C_VOLUME_UP    &kp H            &kp J  &kp K      &lt 4 L  &kp ENTER
 &kp Z      &kp X       &kp C         &kp V                &kp B           &mo 7          &kp C_VOLUME_DOWN  &kp N            &kp M  &kp COMMA  &kp DOT  &kp MINUS
 &kp LCTRL  &kp LSHIFT  &kp LEFT_GUI  &mt LALT LANGUAGE_2  &lt 4 INT_KANA  &lt 2 TAB      &lt 1 LANGUAGE_5   &mt LSHFT SPACE                             &kp BACKSPACE
             >;
