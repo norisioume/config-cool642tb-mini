@@ -83,10 +83,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&kp ESCAPE  &kp END                 &kp UP_ARROW  &kp HOME                 &kp K_SCROLL_UP                        &kp LC(LG(COLON))  &msc SCRL_DOWN  &mo 5      &msc SCRL_UP  &kp PRINTSCREEN
+&kp LSHFT   &kp LEFT                &kp DOWN      &kp RIGHT_ARROW          &kp K_SCROLL_DOWN  &trans      &trans  &kp LC(LG(MINUS))  &mkp MB1        &mkp MB2   &trans        &trans
+&kp LCTRL   &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)   &kp LC(LG(RIGHT_ARROW))  &kp LG(D)          &trans      &trans  &kp LC(Z)          &kp LC(A)       &kp LC(X)  &kp LC(C)     &kp LC(V)
+&trans      &trans                  &trans        &trans                   &trans             &trans      &trans  &trans                                                      &kp DEL
             >;
         };
 
