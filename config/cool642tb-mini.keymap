@@ -50,7 +50,7 @@
 &kp LCTRL  &kp LSHIFT  &kp LEFT_GUI  &mt LALT LANGUAGE_2  &lt 4 INT_KANA  &lt 2 TAB      &lt 1 GRAVE        &mt LSHFT SPACE                             &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LG(COLON)) LC(LG(MINUS))>;
+            sensor-bindings = <&inc_dec_kp LC(LG(COLON)) LC(LG(KP_MINUS))>;
         };
 
         CHAR {
