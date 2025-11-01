@@ -44,10 +44,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W       &kp E                &kp R           &kp T                                         &kp Y          &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S       &kp D                &kp F           &kp G        &trans         &none             &kp H          &kp J  &kp K      &lt 4 L  &kp ENTER
-&kp Z      &kp X       &kp C                &kp V           &kp B        &mo 7          &none             &kp N          &kp M  &kp COMMA  &kp DOT  &mt LCTRL MINUS
-&kp LCTRL  &kp LSHIFT  &mt LALT LANGUAGE_2  &lt 4 INT_KANA  &lt 1 GRAVE  &lt 2 TAB      &mt LSHIFT SPACE  &kp BACKSPACE                             &none
+&kp Q      &kp W       &kp E     &kp R                &kp T                                                   &kp Y             &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S       &kp D     &kp F                &kp G                       &trans         &none        &kp H             &kp J  &kp K      &lt 4 L  &kp ENTER
+&kp Z      &kp X       &kp C     &kp V                &kp B                       &mo 7          &none        &kp N             &kp M  &kp COMMA  &kp DOT  &mt LCTRL MINUS
+&kp LCTRL  &kp LSHIFT  &kp LWIN  &mt LALT LANGUAGE_2  &lt 4 INT_KATAKANAHIRAGANA  &lt 2 TAB      &lt 1 GRAVE  &mt LSHIFT SPACE                             &none
             >;
 
             sensor-bindings = <&inc_dec_kp RG(SEMI) LG(MINUS)>;
@@ -84,10 +84,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &kp END                 &kp UP_ARROW  &kp HOME                 &kp PAGE_UP                           &kp RG(SEMI)   &msc MOVE_Y(-20)  &mo 5      &msc MOVE_Y(20)  &kp PRINTSCREEN
-&kp LSHFT   &kp LEFT                &kp DOWN      &kp RIGHT_ARROW          &kp PAGE_DOWN  &trans      &trans     &kp RG(MINUS)  &mkp MB1          &mkp MB2   &trans           &trans
-&kp LCTRL   &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)   &kp LC(LG(RIGHT_ARROW))  &kp LG(D)      &trans      &trans     &kp LC(Z)      &kp LC(A)         &kp LC(X)  &kp LC(C)        &kp LC(V)
-&trans      &trans                  &trans        &trans                   &trans         &trans      &kp SPACE  &kp DELETE                                                   &trans
+&kp ESCAPE  &kp END                 &kp UP_ARROW  &kp HOME                 &kp PAGE_UP                           &kp RG(SEMI)      &msc MOVE_Y(-20)  &mo 5      &msc MOVE_Y(20)  &kp PRINTSCREEN
+&kp LSHFT   &kp LEFT                &kp DOWN      &kp RIGHT_ARROW          &kp PAGE_DOWN  &trans      &trans     &kp RG(MINUS)     &mkp MB1          &mkp MB2   &trans           &trans
+&kp LCTRL   &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)   &kp LC(LG(RIGHT_ARROW))  &kp LG(D)      &trans      &trans     &kp LC(Z)         &kp LC(A)         &kp LC(X)  &kp LC(C)        &kp LC(V)
+&trans      &trans                  &trans        &trans                   &trans         &trans      &kp SPACE  &mt LSHIFT SPACE                                                &trans
             >;
         };
 
