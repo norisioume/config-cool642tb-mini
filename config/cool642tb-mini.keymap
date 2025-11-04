@@ -56,7 +56,7 @@
         CHAR {
             bindings = <
 &kp EXCLAMATION   &kp QUESTION  &kp AT         &kp AMPERSAND     &kp LS(INTERNATIONAL_3)                                   &kp EQUAL  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp LEFT_BRACKET  &kp LS(INT1)  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH                &trans                   &trans  &kp UNDER  &kp COLON      &kp MINUS             &kp DOUBLE_QUOTES  &kp SLASH
+&kp LEFT_BRACKET  &kp LS(INT1)  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH                &trans                   &none   &kp UNDER  &kp COLON      &kp MINUS             &kp DOUBLE_QUOTES  &kp SLASH
 &kp DOLLAR        &kp PERCENT   &kp CARET      &kp HASH          &kp INTERNATIONAL_3      &trans                   &trans  &kp PLUS   &kp LS(COMMA)  &kp LS(PERIOD)        &kp RIGHT_BRACE    &kp PIPE
 &trans            &trans        &trans         &trans            &kp LANG2                &kp INTERNATIONAL_2      &trans  &trans                                                             &trans
             >;
