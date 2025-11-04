@@ -44,7 +44,7 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W       &kp E               &kp R          &kp T                                                   &kp Y             &kp U  &lt 5 I    &kp O    &kp P
+&kp Q      &kp W       &kp E               &kp R          &kp T                                                   &kp Y             &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S       &kp D               &kp F          &kp G                       &trans         &none        &kp H             &kp J  &kp K      &lt 4 L  &kp ENTER
 &kp Z      &kp X       &kp C               &kp V          &kp B                       &mo 7          &none        &kp N             &kp M  &kp COMMA  &kp DOT  &mt LCTRL MINUS
 &kp LCTRL  &kp LSHIFT  &mt LEFT_ALT LANG2  &kp BACKSPACE  &lt 4 INT_KATAKANAHIRAGANA  &lt 2 TAB      &lt 1 GRAVE  &mt LSHIFT SPACE                             &none
