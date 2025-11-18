@@ -87,7 +87,7 @@
 &kp ESCAPE  &kp END                 &kp UP_ARROW  &kp HOME                 &kp PAGE_UP                                 &kp RG(SEMI)   &msc MOVE_Y(-20)  &mo 5      &msc MOVE_Y(20)  &kp BACKSPACE
 &kp LSHFT   &kp LEFT                &kp DOWN      &kp RIGHT_ARROW          &kp PAGE_DOWN  &trans      &kp LC(P)        &kp RG(MINUS)  &mkp MB1          &mkp MB2   &trans           &kp ENTER
 &kp LCTRL   &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)   &kp LC(LG(RIGHT_ARROW))  &kp LG(D)      &trans      &kp PRINTSCREEN  &kp LC(Z)      &kp LC(A)         &kp LC(X)  &kp LC(C)        &kp LC(V)
-&trans      &trans                  &trans        &trans                   &trans         &trans      &trans           &kp SPACE                                                    &kp DEL
+&trans      &trans                  &trans        &trans                   &trans         &trans      &kp GRAVE        &kp SPACE                                                    &kp DEL
             >;
         };
 
