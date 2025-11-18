@@ -31,6 +31,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
         };
+
+        mouse1 {
+            bindings = <&mkp LCLK>;
+            key-positions = <31 30>;
+        };
+
+        mouse2 {
+            bindings = <&mkp RCLK>;
+            key-positions = <33 32>;
+        };
     };
 
     behaviors {
