@@ -39,7 +39,7 @@
 
         mouse2 {
             bindings = <&mkp RCLK>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
         };
     };
 
