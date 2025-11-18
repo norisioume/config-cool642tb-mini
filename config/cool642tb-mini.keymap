@@ -19,12 +19,12 @@
 
         shift_tab {
             bindings = <&kp LANG2>;
-            key-positions = <2 3>;
+            key-positions = <12 13>;
         };
 
         lang {
             bindings = <&kp LANG1>;
-            key-positions = <6 7>;
+            key-positions = <18 19>;
         };
 
         bs {
@@ -32,14 +32,9 @@
             key-positions = <8 9>;
         };
 
-        mouse1 {
-            bindings = <&mkp LCLK>;
-            key-positions = <18 19>;
-        };
-
-        mouse2 {
-            bindings = <&mkp RCLK>;
-            key-positions = <19 20>;
+        to_mouse_layer {
+            bindings = <&tog 4>;
+            key-positions = <6 7>;
         };
     };
 
